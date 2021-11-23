@@ -1,2 +1,2 @@
 # aRCPlus
- Development of aRCPlan using wxwidgets
+Multi-platform development of aRCPlan using wxwidgets.
