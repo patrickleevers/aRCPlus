@@ -32,7 +32,7 @@ wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
                     wxIMPLEMENT_APP(MyApp);
 bool MyApp::OnInit()
 {
-    MyFrame *frame = new MyFrame("aRCPlus", wxPoint(50, 50), wxSize(1366, 768));
+    MyFrame *frame = new MyFrame("aRCPlus", wxPoint(50, 50), wxSize(450, 340));
     frame->Show(true);
     return true;
 }
