@@ -1,6 +1,6 @@
-// wxWidgets "Hello world" Program
+// Placeholder, edited from  for wxwidgets version of aRCPlan
 // For compilers that support precompilation, includes "wx/wx.h".
-#include <wx/wxprec.h>
+// #include <wx/wxprec.h>
 #ifndef WX_PRECOMP
 #include <wx/wx.h>
 #endif
@@ -32,7 +32,7 @@ wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
                     wxIMPLEMENT_APP(MyApp);
 bool MyApp::OnInit()
 {
-    MyFrame *frame = new MyFrame("aRCPlus", wxPoint(50, 50), wxSize(450, 340));
+    MyFrame *frame = new MyFrame("aRCPlus", wxPoint(50, 50), wxSize(1366, 768));
     frame->Show(true);
     return true;
 }
@@ -59,8 +59,7 @@ void MyFrame::OnExit(wxCommandEvent &event)
 }
 void MyFrame::OnAbout(wxCommandEvent &event)
 {
-    wxMessageBox("This is a placeholder for ",
-                 "the wxWidgets version of aRCPlan!", wxOK | wxICON_INFORMATION);
+    wxMessageBox("aRCPlus  Copyright (C) 2021  Patrick Leevers", wxOK | wxICON_INFORMATION);
 }
 void MyFrame::OnHello(wxCommandEvent &event)
 {
