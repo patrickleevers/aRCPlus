@@ -59,7 +59,8 @@ void MyFrame::OnExit(wxCommandEvent &event)
 }
 void MyFrame::OnAbout(wxCommandEvent &event)
 {
-    wxMessageBox("aRCPlus  Copyright (C) 2021  Patrick Leevers", wxOK | wxICON_INFORMATION);
+    wxMessageBox("This is a wxWidgets' Hello World sample", 
+                 "About Hello World", wxOK | wxICON_INFORMATION);
 }
 void MyFrame::OnHello(wxCommandEvent &event)
 {
