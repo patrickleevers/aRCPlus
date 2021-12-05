@@ -58,7 +58,7 @@ MyFrame::MyFrame(const wxString &title, const wxPoint &pos, const wxSize &size)
     CreateStatusBar();
     SetStatusText("Welcome to wxWidgets!");
     wxPanel *leftPanel = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxSize(200,100));
-    leftPanel->SetBackgroundColour(wxColor(100,100,200));
+    leftPanel->SetBackgroundColour(wxColor(100,200,100));
 }   // end MyFrame()
 
 void MyFrame::OnExit(wxCommandEvent &event)
